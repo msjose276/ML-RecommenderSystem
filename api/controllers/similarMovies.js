@@ -15,7 +15,7 @@ const similarMovies = function(req, res){
     process.env["TITLE"] = title;
     //check if the similarities for the movie title was already computed
     if(map[title]){
-        console.log("Already exists in the cach");
+        console.log("Already exists in the cache");
         return res.send(map[title]);
     }
     

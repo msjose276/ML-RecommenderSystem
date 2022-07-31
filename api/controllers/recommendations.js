@@ -19,7 +19,7 @@ const recommendationBasedOnUserAndItem = function(req, res){
 
     //check if the similarities for the movie title was already computed
     if(map[title]){
-        console.log("Already exists in the cach");
+        console.log("Already exists in the cache");
         return res.send(map[title]);
     }
     
@@ -54,7 +54,7 @@ const recommendationMatrixFact = function(req, res){
 
     //check if the similarities for the movie title was already computed
     if(map[title]){
-        console.log("Already exists in the cach");
+        console.log("Already exists in the cache");
         return res.send(map[title]);
     }
     
@@ -122,7 +122,7 @@ const recommendationBasedOnUser = function(req, res){
 
     //check if the similarities for the movie title was already computed
     if(map[title]){
-        console.log("Already exists in the cach");
+        console.log("Already exists in the cache");
         return res.send(map[title]);
     }
     
